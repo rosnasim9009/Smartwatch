@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smart Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://kit.fontawesome.com/8beab4484a.js"></script>
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+     <!-- Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body onload="showTime()">
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-12">
+            <p id="time"></p>
+            <section id="content">Music
+              <audio id="one"><source src="whitebreadproductions_popup.mp3"></audio>
+              <audio id="two"><source src="mayhammusik_popup.mp3"></audio>
+              <audio id="three"><source src="jruffin_popup.mp3"></audio>
+                <!--div id="play" style=""><i class="fa fa-play" aria-hidden="true"></i></div-->
+                <div id="back" style="margin-top:280%;"><i class="fa fa-backward" aria-hidden="true" onclick="prev()"></i></div>
+                <div id="play" style="margin-left: 173%;margin-top: -28%;"><i class="fa fa-play" aria-hidden="true" onclick="play()"></i></div>
+                <div id="pause" style="margin-left: 172%;visibility: hidden;"><i class="fa fa-pause" aria-hidden="true" onclick="pause()"></i></div>
+                <div id="next" style="margin-top: -50%;margin-left: 355%;"><i class="fa fa-forward" aria-hidden="true"onclick="next()"></i></div-->
+
+            </section>
+            <nav>
+            <a href="message.html" class="current"><img src="msg.jpg" style="margin-top: 33%;margin-left: 9%;width: 4%;position:absoute;"></a>
+            <a href="music.html"><img src="music.jpg" style="margin-top: 33%;margin-left: 1%;width: 4%;position:absoute;"></a>
+            <a href="timer.html"><img src="timer.jpg" style="margin-top: 33%;margin-left: 1%;width: 4%;position:absoute;"></a>
+            </nav>
+          </div>
+      </div>
+    </div>
+    <script src="music.js"></script>
+    <script src="showTime.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+body{
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 45%;
+}
+#time{
+    margin-top: 14%;
+    margin-left: 26%;
+    color: #fff;
+}
+#content{
+  color: #fff;
+  position: absolute;
+  top: 13em;
+  left: 5em;
+  bottom: 10em;
+  border: 1px;
+  width:23%;
+  height: 45%;
+  overflow: scroll;
+
+  padding-right: 190px;
+  padding-left: 11px;
+}
+#contents{
+  color: #fff;
+  position: absolute;
+  top: 13em;
+  left: 5em;
+  bottom: 10em;
+  border: 1px;
+  width:23%;
+  height: 45%;
+  overflow: scroll;
+  padding-right: 1px;
+  padding-left: 11px;
+}
+
+::-webkit-scrollbar {
+    display: none;    /*make scrollbar transparent */
+}
+
+#t{
+  text-align: center;
+  font-size: 42px;
+  margin-left: 49%;
+  margin-top: 79%;
+  font-family: algerian;
+}
